@@ -79,9 +79,9 @@ article .alien img {
     text-transform: capitalize;
     font-size: 1.5em;
     font-weight: 400;
-
-    /* to to: make it round */
+    /* to do: make it round */
 }
+
 
 .upsell {
     display: flex;
@@ -442,7 +442,6 @@ nav div {
         margin: 0;
     }
 
-
     .hero.footer {
         display: flexbox;
         flex-direction: column;
@@ -505,9 +504,6 @@ nav div {
         list-style-type: none;
     }
 
-
-
-
     ul :nth-child(4) {
         color: #FF3998;
     }
@@ -515,6 +511,4 @@ nav div {
     footer img {
         padding: 1em 0;
     }
-
-
 }
