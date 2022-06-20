@@ -7,7 +7,7 @@ body {
 header {
     display: flex;
     padding: 2rem;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 header i {
@@ -185,6 +185,7 @@ article .alien img {
     display: flex;
     flex-direction: row;
     margin-right: 2em;
+    /*not sure why figma shows another card on the right. Carousele needed? */
 }
 
 .nftimage {
@@ -348,11 +349,16 @@ nav div {
 @media screen and (min-width: 429px) {
     body {
         background-color: #FFFFFF;
-        width: 1440px;
+        max-width: 1440px;
+        width: 100vw;
 
     }
 
     header {
+
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
         padding: 5em;
     }
 
@@ -388,20 +394,26 @@ nav div {
     }
 
     .press {
-        padding: 5em;
+        padding: 1em 5em;
     }
 
     .press i:nth-child(4) {
         display: flex;
     }
 
-    .showcase {
+    .pre .showcase {
         padding: 0 5em;
     }
 
     .showcase h1,
     .showcase h3 {
         width: 1440px;
+    }
+
+    .showcase {
+        padding: 5em;
+        width: 100vw;
+
     }
 
     #secondarticle {
@@ -458,12 +470,14 @@ nav div {
 
     nav {
         width: 50%;
+        flex-wrap: wrap;
     }
 
     nav div {
         display: flex;
-        width: 20%;
+        width: auto;
         padding-left: 1em;
+        /* needs better solution for medium screen */
     }
 
     .copyright {
@@ -497,5 +511,10 @@ nav div {
     ul :nth-child(4) {
         color: #FF3998;
     }
+
+    footer img {
+        padding: 1em 0;
+    }
+
 
 }
