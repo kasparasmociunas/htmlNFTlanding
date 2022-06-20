@@ -24,10 +24,10 @@ article {
 
 article .alien img {
 
-    height: 50%;
+    height: 80%;
     position: relative;
-    top: 20px;
-    left: -80px;
+    top: -30px;
+    left: -120px;
 
 }
 
@@ -83,7 +83,7 @@ article .alien img {
     display: flex;
     flex-direction: column;
     width: 428px;
-    height: 326px;
+    height: 300px;
     background-image: url(/assets/background.svg);
     background-size: cover;
     background-position: -1000px;
@@ -109,6 +109,7 @@ article .alien img {
     font-size: 40px;
     font-weight: 500;
     line-height: 48px;
+    margin: 0;
 }
 
 .press {
@@ -130,4 +131,199 @@ article .alien img {
     display: flex;
     width: 150px;
 
+}
+
+.showcase {
+    width: 428px;
+    padding: 2em;
+
+}
+
+.showcase h3 {
+    width: 364px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #555555;
+}
+
+.showcase a {
+    font-weight: 400;
+}
+
+
+.showcase h1 {
+    display: flex;
+    align-items: flex-end;
+    font-style: normal;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.showcase a {
+    color: inherit;
+}
+
+.nfts {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nft {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+}
+
+.nftimage {
+    width: 290px;
+}
+
+
+.nftinfo {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-block-start: 0;
+    width: 290px;
+    background-color: #EEEEEE;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+
+}
+
+.row1,
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+.nftinfo p {
+    margin: 0;
+}
+
+.nftseries {
+    color: #FF8139;
+    text-transform: uppercase;
+}
+
+.row2 {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+
+
+}
+
+.row3 {
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nfttopbid {
+    text-transform: uppercase;
+    color: #777777;
+}
+
+
+
+.nftprice {
+    display: flex;
+    flex-direction: row;
+}
+
+.nftinfo .row2 img {
+    padding: 0 0.5em;
+}
+
+#greengirl {
+    display: flex;
+    align-self: flex-end;
+}
+
+.footer {
+    width: 207px;
+
+
+}
+
+.footer h1 {
+    width: 207px;
+    padding-bottom: 0.5em;
+
+}
+
+.footer .description {
+    width: 207px;
+}
+
+footer {
+    padding: 3em 2em;
+    border-top: 2px #9999 solid;
+}
+
+footer p {
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.social {
+    padding: 1em 0;
+}
+
+.social i {
+    height: 2em;
+    padding: 0 0.5em 0 0;
+    color: #999999;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    color: #555555
+}
+
+
+nav p {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+}
+
+nav li {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.copyright {
+    display: flex;
+    padding: 3em 0;
+    color: #999999;
+    font-weight: 300;
+    display: flex;
+}
+
+.copyright i {
+    padding: 0 0.5em 0 0;
 }
