@@ -1,1 +1,133 @@
-body {}
+body {
+    width: 428px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+header {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between
+}
+
+header i {
+    align-self: center;
+    color: #999999;
+
+}
+
+article {
+    display: flex;
+    height: 550px;
+
+}
+
+article .alien img {
+
+    height: 50%;
+    position: relative;
+    top: 20px;
+    left: -80px;
+
+}
+
+.hero {
+    padding: 2em;
+    width: 274px;
+
+}
+
+.hero h3 {
+    color: #FF3998;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    font-style: normal;
+}
+
+.hero h1 {
+    font-weight: 900;
+    width: 274px;
+    font-size: 3em;
+    line-height: 58px;
+    width: 274px;
+    height: 116px;
+}
+
+.hero .description {
+    color: #555555;
+    width: 274px;
+    font-style: normal;
+    height: 120px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.hero button {
+    width: 12rem;
+    height: 5rem;
+    background-color: white;
+    padding: 1em 1.5em;
+    border: 5px solid;
+    border-image: url(/assets/background.svg) 100;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 400;
+
+    /* to to: make it round */
+}
+
+.upsell {
+    display: flex;
+    flex-direction: column;
+    width: 428px;
+    height: 326px;
+    background-image: url(/assets/background.svg);
+    background-size: cover;
+    background-position: -1000px;
+    justify-content: flex-end;
+    padding: 2em;
+}
+
+.upsell h3 {
+    display: flex;
+    font-style: normal;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.upsell h1 {
+    display: flex;
+    align-items: flex-end;
+    font-style: normal;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.press {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em 1em;
+}
+
+
+
+.press i {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.press i img {
+    display: flex;
+    width: 150px;
+
+}
