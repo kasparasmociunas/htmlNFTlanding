@@ -1,0 +1,514 @@
+body {
+    width: 428px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+header {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+header i {
+    align-self: center;
+    color: #999999;
+
+}
+
+header ul {
+    display: none;
+}
+
+article {
+    display: flex;
+    height: 550px;
+
+}
+
+article .alien img {
+
+    height: 80%;
+    position: relative;
+    top: -30px;
+    left: -120px;
+
+}
+
+.hero {
+    padding: 2em;
+    width: 274px;
+
+}
+
+.hero h3 {
+    color: #FF3998;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    font-style: normal;
+}
+
+.hero h1 {
+    font-weight: 900;
+    width: 274px;
+    font-size: 3em;
+    line-height: 58px;
+    width: 274px;
+    height: 116px;
+}
+
+.hero .description {
+    color: #555555;
+    width: 274px;
+    font-style: normal;
+    height: 120px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.hero button {
+    width: 12rem;
+    height: 5rem;
+    background-color: white;
+    padding: 1em 1.5em;
+    border: 5px solid;
+    border-image: url(/assets/background.svg) 100;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 400;
+    /* to do: make it round */
+}
+
+
+.upsell {
+    display: flex;
+    flex-direction: column;
+    width: 428px;
+    height: 300px;
+    background-image: url(/assets/background.svg);
+    background-size: cover;
+    background-position: -900px;
+    justify-content: flex-end;
+    padding: 2em;
+}
+
+.upsell h3 {
+    display: flex;
+    font-style: normal;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.upsell h1 {
+    display: flex;
+    align-items: flex-end;
+    font-style: normal;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 0;
+}
+
+.press {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em 1em;
+}
+
+
+
+.press i {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.press i:nth-child(4) {
+    display: none;
+}
+
+.press i img {
+    display: flex;
+    width: 150px;
+
+}
+
+.showcase {
+    width: 428px;
+    padding: 2em;
+
+}
+
+.showcase h3 {
+    width: 364px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #555555;
+}
+
+.showcase a {
+    font-weight: 400;
+}
+
+
+.showcase h1 {
+    display: flex;
+    align-items: flex-end;
+    font-style: normal;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.showcase a {
+    color: inherit;
+}
+
+.nfts {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nft {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+    /*not sure why figma shows another card on the right. Carousele needed? */
+}
+
+.nftimage {
+    width: 290px;
+}
+
+
+.nftinfo {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-block-start: 0;
+    width: 290px;
+    background-color: #EEEEEE;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+
+}
+
+.row1,
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+.nftinfo p {
+    margin: 0;
+}
+
+.nftseries {
+    color: #FF8139;
+    text-transform: uppercase;
+}
+
+.row2 {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+
+
+}
+
+.row3 {
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nfttopbid {
+    text-transform: uppercase;
+    color: #777777;
+}
+
+
+
+.nftprice {
+    display: flex;
+    flex-direction: row;
+}
+
+.nftinfo .row2 img {
+    padding: 0 0.5em;
+}
+
+#greengirl {
+    display: flex;
+    align-self: flex-end;
+}
+
+#secondarticle {
+    border-bottom: 1px solid #999999;
+}
+
+.footer {
+    width: 207px;
+
+
+}
+
+.footer h1 {
+    width: 207px;
+    padding-bottom: 0.5em;
+
+}
+
+.footer .description {
+    width: 207px;
+}
+
+footer {
+    padding: 3em 2em;
+}
+
+footer p {
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.social {
+    padding: 1em 0;
+}
+
+.social i {
+    height: 2em;
+    padding: 0 0.5em 0 0;
+    color: #999999;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    color: #555555
+}
+
+
+nav p {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+}
+
+nav li {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.copyright {
+    display: flex;
+    padding: 3em 0;
+    color: #999999;
+    font-weight: 300;
+    display: flex;
+}
+
+.copyright i {
+    padding: 0 0.5em 0 0;
+}
+
+.copyright :nth-child(2) {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 429px) {
+    body {
+        background-color: #FFFFFF;
+        max-width: 1440px;
+        width: 100vw;
+
+    }
+
+    header {
+
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        padding: 5em;
+    }
+
+    .hero h {
+        width: 537px;
+    }
+
+    article {
+        display: flex;
+        justify-content: space-between;
+        padding: 5em;
+    }
+
+    article .alien img {
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+
+    .upsell {
+        box-sizing: border-box;
+        width: auto;
+        height: 320px;
+        background-position: center;
+        margin: 5em;
+        background-size: auto;
+        border-radius: 0.5em;
+    }
+
+    .upsell h1,
+    .upsell h3 {
+        width: 100%;
+    }
+
+    .press {
+        padding: 1em 5em;
+    }
+
+    .press i:nth-child(4) {
+        display: flex;
+    }
+
+    .pre .showcase {
+        padding: 0 5em;
+    }
+
+    .showcase h1,
+    .showcase h3 {
+        width: 1440px;
+    }
+
+    .showcase {
+        padding: 5em;
+        width: 100vw;
+
+    }
+
+    #secondarticle {
+        margin: 5em;
+        border-top: 1px solid #999999;
+        border-bottom: 1px solid #999999;
+        padding: 0 10em 0 0;
+    }
+
+    .footer h1,
+    .footer .description {
+        width: 537px;
+        margin: 0;
+        height: auto;
+        padding: 0;
+    }
+
+    .footer {
+        width: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    .footer h3 {
+        margin: 0;
+    }
+
+    .hero.footer {
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2em;
+    }
+
+    .hero.footer {
+        padding: 0 2em;
+    }
+
+    .hero .description {
+        padding-bottom: 1em;
+    }
+
+    footer {
+        padding-left: 5em;
+    }
+
+    .footerblock {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    nav {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+
+    nav div {
+        display: flex;
+        width: auto;
+        padding-left: 1em;
+        /* needs better solution for medium screen */
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5em;
+    }
+
+    .copyright :nth-child(2) {
+        display: block;
+    }
+
+    header .fa-bars {
+        display: none;
+    }
+
+    header ul {
+        text-decoration: none;
+        display: flex;
+        color: #777777;
+    }
+
+    header li {
+        padding-left: 1em;
+        list-style-type: none;
+    }
+
+    ul :nth-child(4) {
+        color: #FF3998;
+    }
+
+    footer img {
+        padding: 1em 0;
+    }
+}
